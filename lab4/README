@@ -1,0 +1,8 @@
+iosched.cpp is the source file.
+
+INTSRUCTIONS :
+   1. Place the source file(iosched.cpp) and Makefile in desired directory.
+   2. Compile using : 'make'. Optionally ,'make clean' to remove previous .o files.
+      'iosched' is the name of executable generated.      
+   3. Run using : ./iosched -s<schedalgo> inputFile
+

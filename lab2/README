@@ -1,0 +1,8 @@
+sched.cpp is the source file.
+
+INTSRUCTIONS :
+   1. Place the source file(sched.cpp) and Makefile in desired directory.
+   2. Compile using : 'make'. Optionally ,'make clean' to remove previous .o files.
+      'sched' is the name of executable generated.      
+   3. Run using : ./sched [-v] -s{FLS | R<num>} inputFile randomFile
+

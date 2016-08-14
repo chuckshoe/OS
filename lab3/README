@@ -1,0 +1,8 @@
+mmu.cpp is the source file.
+
+INTSRUCTIONS :
+   1. Place the source file(mmu.cpp) and Makefile in desired directory.
+   2. Compile using : 'make'. Optionally ,'make clean' to remove previous .o files.
+      'mmu' is the name of executable generated.      
+   3. Run using : ./mmu [-a<algo>] [-o<OPFS>] [-f<num_frames>] infile rfile
+

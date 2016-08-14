@@ -1,0 +1,12 @@
+linker.cpp is the source file.
+
+INTSRUCTIONS FOR COMPILATION
+   1. Place the source file(linker.cpp) in desired directory.
+   2. Compile using : g++ linker.cpp -o linker -static-libstdc++ 
+      Here linker is the name of executable generated. Any other name can also 
+      be given.
+      If only 'g++ linker.cpp -static-libstdc++' is given , by default the name of binary 
+      generated is a.out
+   3. Run using : ./linker <input-file>
+
+
