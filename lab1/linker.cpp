@@ -57,7 +57,8 @@ void parseerror(int linenum, int lineoffset, int errcode) {
     "TO_MANY_USE_IN_MODULE", 
     "TO_MANY_INSTR"
   }; 
-  printf("Parse Error line %d offset %d: %s\n", linenum, lineoffset, errstr[errcode].c_str()); 
+  printf("Parse Error line %d offset %d: %s\n", linenum, lineoffset, 
+      errstr[errcode].c_str()); 
 } 
 
 int check_number(string in) {
@@ -645,7 +646,8 @@ void read_instruction_list_second() {
     int i;
     for (i=0; i<use_symbols.size(); i++){
       if (!use_symbols[i].second) {
-      printf ("Warning: Module %d: %s ",num_of_modules,use_symbols[i].first.c_str());
+      printf ("Warning: Module %d: %s ",num_of_modules,
+          use_symbols[i].first.c_str());
       printf ("appeared in the uselist but was not actually used\n");
       }
     }
@@ -700,7 +702,6 @@ int main(int argc, char* argv[]) {
     if (!fin.is_open()) {
       cout << "Failed to open the file." << endl;
       return -1;
-    
     }
   }
 
